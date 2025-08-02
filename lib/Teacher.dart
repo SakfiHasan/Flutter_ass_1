@@ -16,7 +16,7 @@ class Teacher extends Person {
     print("Teacher Information:\n");
     displayRole(this.tID);
     print("Name: $name\nAge: $age\nAddress: $address");
-    print("Courses Taught:\n");
+    print("Courses Taught:");
     for (String course in crs_Taught) {
       print("- $course\n");
     }

@@ -28,7 +28,7 @@ class Student extends Person {
   void displayStudentInfo() {
     print("Student Information:\n");
     displayRole(sID);
-    print("Name: $name\nAge: $age\nAddress: $address\n");
+    print("Name: $name\nAge: $age\nAddress: $address");
     print("Average Score: ${avg()}\n");
   }
 }
